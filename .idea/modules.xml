@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/idea--dubooStudy--workSpace.iml" filepath="$PROJECT_DIR$/idea--dubooStudy--workSpace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuan-dubbo-common/yuan-dubbo-common.iml" filepath="$PROJECT_DIR$/yuan-dubbo-common/yuan-dubbo-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuan-dubbo-item-api/yuan-dubbo-item-api.iml" filepath="$PROJECT_DIR$/yuan-dubbo-item-api/yuan-dubbo-item-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuan-dubbo-item-service/yuan-dubbo-item-service.iml" filepath="$PROJECT_DIR$/yuan-dubbo-item-service/yuan-dubbo-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuan-dubbo-order-api/yuan-dubbo-order-api.iml" filepath="$PROJECT_DIR$/yuan-dubbo-order-api/yuan-dubbo-order-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuan-dubbo-order-service/yuan-dubbo-order-service.iml" filepath="$PROJECT_DIR$/yuan-dubbo-order-service/yuan-dubbo-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yuan-dubbo-web/yuan-dubbo-web.iml" filepath="$PROJECT_DIR$/yuan-dubbo-web/yuan-dubbo-web.iml" />
+    </modules>
+  </component>
+</project>

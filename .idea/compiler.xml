@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yuan-dubbo-common" />
+        <module name="yuan-dubbo-item-api" />
+        <module name="yuan-dubbo-item-service" />
+        <module name="yuan-dubbo-order-api" />
+        <module name="yuan-dubbo-order-service" />
+        <module name="yuan-dubbo-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="idea--dubooStudy--workSpace" target="1.8" />
+      <module name="yuan-dubbo-common" target="1.8" />
+      <module name="yuan-dubbo-item-api" target="1.8" />
+      <module name="yuan-dubbo-item-service" target="1.8" />
+      <module name="yuan-dubbo-order-api" target="1.8" />
+      <module name="yuan-dubbo-order-service" target="1.8" />
+      <module name="yuan-dubbo-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
