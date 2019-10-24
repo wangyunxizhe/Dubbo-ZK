@@ -131,6 +131,9 @@
 
     </build>
 
+    <!-- 通过maven打包dubbo，生成可执行的jar，效果类似springboot，
+    但不同的是这个jar不能单独运行，需要将工程依赖的所有jar包都放在指定目录下。
+    注意同时把<packaging>标签中改为jar -->
     <!--<build>
         <finalName>yuan-dubbo-item-service</finalName>
 

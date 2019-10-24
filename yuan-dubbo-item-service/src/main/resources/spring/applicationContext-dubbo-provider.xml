@@ -10,12 +10,16 @@
 	<dubbo:application name="yuan-dubbo-item-service"></dubbo:application>
 	
 	<!-- 注册中心的配置，使用zk暴露服务 -->
-	<dubbo:registry protocol="zookeeper" address="160.6.92.79:2181"></dubbo:registry>
+	<!-- 注意：一定要先关闭Linux的防火墙！！！ -->
+	<!-- 家 -->
+	<!--<dubbo:registry protocol="zookeeper" address="192.168.1.109:2181"></dubbo:registry>-->
+	<!-- 手机热点 -->
+	<dubbo:registry protocol="zookeeper" address="172.20.10.10:2181"></dubbo:registry>
 	
 	<!-- 定义暴露服务的端口号 -->
 	<dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
 	
-	<!-- 暴露具体的服务接口 -->
+	<!-- 暴露具体的服务接口，ref中的值是ItemsServiceImpl中定义的beanId -->
 	<dubbo:service retries="3" interface="com.yuan.item.service.ItemsService"
 		ref="itemsService"></dubbo:service>
 

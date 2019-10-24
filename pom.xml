@@ -9,12 +9,12 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>yuan-dubbo-common</module>
-        <module>yuan-dubbo-item-api</module>
-        <module>yuan-dubbo-item-service</module>
-        <module>yuan-dubbo-order-api</module>
-        <module>yuan-dubbo-order-service</module>
-        <module>yuan-dubbo-web</module>
+        <module>yuan-dubbo-common</module><!-- 通用模块，定义了一些枚举，返回格式 -->
+        <module>yuan-dubbo-item-api</module><!-- 商品模块，定义了商品dubbo服务的接口 -->
+        <module>yuan-dubbo-item-service</module><!-- 商品模块，实现了商品dubbo服务的接口功能 -->
+        <module>yuan-dubbo-order-api</module><!-- 订单模块，定义了订单dubbo服务的接口 -->
+        <module>yuan-dubbo-order-service</module><!-- 订单模块，实现了订单dubbo服务的接口功能 -->
+        <module>yuan-dubbo-web</module><!-- 控制层模块。负责接收前端的url请求 -->
     </modules>
 
     <!-- 集中定义依赖版本号 -->
